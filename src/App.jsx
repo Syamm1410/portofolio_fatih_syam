@@ -279,7 +279,7 @@ function App() {
   const floatDelays   = [0, 0.5, 1.0, 1.5, 0.3, 0.8, 1.3, 0.2, 0.7, 1.1, 0.4, 0.6, 1.2, 0.9, 0.1, 1.4, 0.35];
   const topOffsets    = [35, 70, 90, 50, 75, 35, 70, 90, 50, 75, 60, 40, 80, 55, 65, 45, 85];
 
-  // ── Theme-aware class helpers ──
+  // Theme
   const bg        = isDark ? "bg-[#020617]"        : "bg-slate-100";
   const text       = isDark ? "text-white"           : "text-slate-900";
   const textMuted  = isDark ? "text-gray-300"        : "text-slate-600";
@@ -305,7 +305,7 @@ function App() {
         <h2>Projects</h2><p>E-commerce platform, Hotel booking system, Interactive portfolio website, School System, Vorblink, Interactive Romantic Website</p>
       </section>
 
-      {/* Cursor glow — dark only, desktop only */}
+      {/* Cursor glow */}
       {isDark && (
         <div
           className="hidden md:block fixed w-40 h-40 rounded-full pointer-events-none blur-3xl opacity-20 bg-cyan-400 z-0"
@@ -318,7 +318,7 @@ function App() {
       <div className={`absolute bottom-0 right-0 w-48 md:w-72 h-48 md:h-72 rounded-full blur-3xl animate-pulse ${isDark ? "bg-purple-500 opacity-10 md:opacity-20" : "bg-purple-300 opacity-20"}`} />
       <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 md:w-72 h-48 md:h-72 rounded-full blur-3xl animate-pulse ${isDark ? "bg-green-500 opacity-10 md:opacity-20" : "bg-teal-300 opacity-15"}`} />
 
-      {/* ───── NAVBAR ───── */}
+      {/* NAVBAR */}
       <nav className="fixed top-0 w-full z-50 px-4 md:px-6 py-3 md:py-5">
         <div className={`max-w-6xl mx-auto ${navBg} border backdrop-blur-lg rounded-2xl px-4 md:px-6 py-3 md:py-4 flex items-center justify-between shadow-xl transition-colors duration-300`}>
           <h1 className="text-lg md:text-2xl font-bold">M. Fatih Syam</h1>
@@ -385,7 +385,7 @@ function App() {
         )}
       </nav>
 
-      {/* ───── HERO ───── */}
+      {/* HERO */}
       <section id="home" className="flex items-center justify-center min-h-screen relative z-10 px-4 md:px-6 pt-24 md:pt-28 pb-12">
         <motion.div
           initial={{ opacity: 0, y: 80 }}
@@ -441,7 +441,7 @@ function App() {
         </motion.div>
       </section>
 
-      {/* ───── ABOUT ───── */}
+      {/* ABOUT */}
       <section id="about" className="relative z-10 px-4 md:px-6 pb-16 md:pb-24 pt-6 md:pt-12">
         <motion.div
           initial={{ opacity: 0, y: 80 }}
@@ -457,7 +457,7 @@ function App() {
             I have 3 years of experience in visual design and social media content editing, along with 2 years of programming experience building interactive and modern web applications.
             <br /><br />
             I enjoy creating aesthetic, functional, and user-friendly digital experiences using modern technologies like{" "}
-            <span className="text-cyan-500">React</span>, <span className="text-cyan-500">Next.js</span>, and <span className="text-cyan-500">Tailwind CSS</span>.
+            <span className="text-cyan-500">React</span>, <span className="text-cyan-500">Next.js</span>, <span className="text-cyan-500">Vite</span>, and <span className="text-cyan-500">Tailwind CSS</span>.
             <br /><br />
             I'm also experienced in using various design and editing tools such as{" "}
             <span className="text-cyan-500">Figma</span>, <span className="text-cyan-500">Canva</span>, <span className="text-cyan-500">CorelDRAW</span>,{" "}
@@ -467,7 +467,7 @@ function App() {
         </motion.div>
       </section>
 
-      {/* ───── EXPERIENCE ───── */}
+      {/* EXPERIENCE */}
       <section id="experience" className="relative z-10 px-4 md:px-6 pb-16 md:pb-24 pt-4 md:pt-12">
         <motion.div
           initial={{ opacity: 0, y: 80 }}
@@ -497,7 +497,7 @@ function App() {
         </motion.div>
       </section>
 
-      {/* ───── SKILLS ───── */}
+      {/* SKILLS */}
       <section id="skills" className="relative z-10 px-4 md:px-6 pb-16 md:pb-24 pt-4 md:pt-12">
         <motion.div
           initial={{ opacity: 0, y: 80 }}
@@ -580,7 +580,7 @@ function App() {
         </motion.div>
       </section>
 
-      {/* ───── PROJECTS ───── */}
+      {/* PROJECTS */}
       <section id="projects" className="relative z-10 px-4 md:px-6 pt-6 md:pt-16 pb-12 md:pb-16">
         <motion.div
           initial={{ opacity: 0, y: 80 }}
@@ -677,7 +677,7 @@ function App() {
         </motion.div>
       </section>
 
-      {/* ───── COURSES & BOOTCAMPS ───── */}
+      {/* COURSES & BOOTCAMPS */}
       <div className="max-w-6xl mx-auto px-4 md:px-6 pb-12 md:pb-16">
         <motion.div
           initial={{ opacity: 0, y: 80 }}
@@ -710,7 +710,7 @@ function App() {
         </motion.div>
       </div>
 
-      {/* ───── CERTIFICATES ───── */}
+      {/* CERTIFICATES */}
       <section id="certificates" className="relative z-10 px-4 md:px-6 pb-20 md:pb-32 pt-4 md:pt-12">
         <motion.div
           initial={{ opacity: 0, y: 80 }}
@@ -745,7 +745,7 @@ function App() {
         </motion.div>
       </section>
 
-      {/* ───── CONTACT ───── */}
+      {/* CONTACT */}
       <section id="contact" className="relative z-10 px-4 md:px-6 pb-16 md:pb-24 pt-4 md:pt-12">
         <motion.div
           initial={{ opacity: 0, y: 80 }}
@@ -786,7 +786,7 @@ function App() {
         </motion.div>
       </section>
 
-      {/* ───── PROJECT MODAL ───── */}
+      {/* PROJECT MODAL */}
       {selectedProject && (
         <div
           className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 px-4 py-6"
@@ -834,7 +834,7 @@ function App() {
         </div>
       )}
 
-      {/* ───── CERTIFICATE MODAL ───── */}
+      {/* CERTIFICATE MODAL */}
       {selectedCertificate && (
         <div
           className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 px-4 py-6"
@@ -861,7 +861,7 @@ function App() {
         </div>
       )}
 
-      {/* ───── FOOTER ───── */}
+      {/* FOOTER */}
       <footer className={`relative z-10 py-8 text-center ${textSubtle} text-sm`}>
         <p>© 2026 M. Fatih Syam. All rights reserved.</p>
       </footer>
