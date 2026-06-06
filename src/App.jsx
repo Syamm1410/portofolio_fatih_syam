@@ -442,7 +442,7 @@ function App() {
       </section>
 
       {/* ABOUT */}
-      <section id="about" className="relative z-10 px-4 md:px-6 pb-16 md:pb-24 -mt-2 md:mt-0 pt-0 md:pt-12">
+      <section id="about" className="relative z-10 px-4 md:px-6 pb-16 md:pb-24 -mt-6 md:mt-0 pt-0 md:pt-12">
         <motion.div
           initial={{ opacity: 0, y: 80 }}
           whileInView={{ opacity: 1, y: 0 }}
