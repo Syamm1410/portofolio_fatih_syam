@@ -386,7 +386,7 @@ function App() {
       </nav>
 
       {/* HERO */}
-      <section id="home" className="flex items-center justify-center h-auto md:min-h-screen relative z-10 px-4 md:px-6 pt-20 md:pt-28 pb-4 md:pb-12">
+      <section id="home" className="relative z-10 px-4 md:px-6 pt-20 md:pt-28 pb-4 md:pb-12 flex md:min-h-screen md:items-center md:justify-center">
         <motion.div
           initial={{ opacity: 0, y: 80 }}
           animate={{ opacity: 1, y: 0 }}
