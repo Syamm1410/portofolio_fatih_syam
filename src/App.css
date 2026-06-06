@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .blur-3xl {
+    filter: blur(30px);
+    opacity: 0.1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
