@@ -386,7 +386,7 @@ function App() {
       </nav>
 
       {/* HERO */}
-      <section id="home" className="flex items-center justify-center md:min-h-screen relative z-10 px-4 md:px-6 pt-20 md:pt-28 pb-4 md:pb-12">
+      <section id="home" className="flex items-center justify-center h-auto md:min-h-screen relative z-10 px-4 md:px-6 pt-20 md:pt-28 pb-4 md:pb-12">
         <motion.div
           initial={{ opacity: 0, y: 80 }}
           animate={{ opacity: 1, y: 0 }}
@@ -442,7 +442,7 @@ function App() {
       </section>
 
       {/* ABOUT */}
-      <section id="about" className="relative z-10 px-4 md:px-6 pb-16 md:pb-24 -mt-6 md:mt-0 pt-0 md:pt-12">
+      <section id="about" className="relative z-10 px-4 md:px-6 pb-16 md:pb-24 -mt-16 md:mt-0 pt-0 md:pt-12">
         <motion.div
           initial={{ opacity: 0, y: 80 }}
           whileInView={{ opacity: 1, y: 0 }}
