@@ -263,7 +263,7 @@ function App() {
   ];
 
   const coursesBootcamps = [
-    { title: "Software Development Bootcamp", desc: "Learned React, Next.js, Vite, Tailwind CSS, and responsive website development.", icon: "💻" },
+    { title: "Software Development Bootcamp", desc: "Learned HTML, CSS, Tailwind CSS, JavaScript, and responsive website development.", icon: "💻" },
     { title: "Data Analyst Bootcamp", desc: "Studied data analysis and visualization techniques.", icon: "📊" },
     { title: "JavaScript Fundamental", desc: "Completed JavaScript basic to intermediate programming course.", icon: "📚" },
   ];
