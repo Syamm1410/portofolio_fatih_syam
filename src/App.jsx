@@ -112,6 +112,8 @@ function App() {
         { name: "Supabase", icon: "https://cdn.simpleicons.org/supabase/3ECF8E" },
         { name: "Vercel", icon: "https://cdn.simpleicons.org/vercel/000000" },
         { name: "GitHub", icon: "https://cdn.simpleicons.org/github/000000" },
+        { name: "PostgreSql",  icon: "https://cdn.simpleicons.org/postgresql/336791" },
+        { name: "Node.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
       ],
     },
     {
@@ -134,7 +136,7 @@ function App() {
       hoverBorder: "rgba(250,204,21,0.8)",
       hoverText: "group-hover:text-yellow-500",
       skills: [
-        { name: "CapCut", icon: capcut },
+        { name: "CapCut", icon: "https://cdn.simpleicons.org/capcut/000000" },
         { name: "FilmoraGo", icon: "https://cdn.simpleicons.org/wondershare/1290EF" },
         { name: "Adobe Lightroom", icon: lightroom },
       ],
@@ -172,10 +174,10 @@ function App() {
     {
       title: "School Website for Mts Nurul Falah 🏫",
       desc: "School website with responsive design, showcasing school info, news, and contact features.",
-      detail: "Full-stack informative school website with Next.js and Supabase backend. Features include student and teacher data management, online registration, announcements, news, and an admin dashboard. Deployed on Vercel.",
+      detail: "Full-stack informative school website with Node.js and Supabase backend. Features include student and teacher data management, online registration, announcements, news, and an admin dashboard. Deployed on Vercel.",
       image: project4,
       gradient: "from-green-500/30 to-teal-500/30",
-      tech: ["Next.js", "Supabase", "TypeScript", "Vercel", "Prisma", "GitHub"],
+      tech: ["Node.js", "Supabase", "TypeScript", "Vercel", "Prisma", "GitHub"],
     },
     {
       title: "Vorblink — Link in Bio App 🌐",
