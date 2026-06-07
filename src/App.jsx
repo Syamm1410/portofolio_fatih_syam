@@ -111,6 +111,8 @@ function App() {
       skills: [
         { name: "Supabase", icon: "https://cdn.simpleicons.org/supabase/3ECF8E" },
         { name: "Vercel", icon: "https://cdn.simpleicons.org/vercel/000000" },
+        { name: "Prisma", icon: "https://cdn.simpleicons.org/prisma/2D3748" },
+        { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
         { name: "GitHub", icon: "https://cdn.simpleicons.org/github/000000" },
         { name: "PostgreSql",  icon: "https://cdn.simpleicons.org/postgresql/336791" },
         { name: "Node.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
@@ -301,8 +303,8 @@ function App() {
       {/* SEO hidden */}
       <section className="sr-only">
         <h1>M. Fatih Syam</h1>
-        <h2>Summary</h2><p>FullStack Developer specializing in React, Next.js, Vite, TypeScript, Tailwind CSS, and UI Design.</p>
-        <h2>Skills</h2><p>React, Next.js, Vite, TypeScript, JavaScript, Tailwind CSS, HTML, CSS, Figma</p>
+        <h2>Summary</h2><p>FullStack Developer specializing in React, Next.js, Node.js, PostgreSql, Vite, TypeScript, Tailwind CSS, and UI Design.</p>
+        <h2>Skills</h2><p>React, Next.js, Node.js, PostgreSql, Vite, TypeScript, JavaScript, Tailwind CSS, HTML, CSS, Figma</p>
         <h2>Experience</h2><p>Freelance FullStack Developer and UI Designer</p>
         <h2>Projects</h2><p>E-commerce platform, Hotel booking system, Interactive portfolio website, School System, Vorblink, Interactive Romantic Website</p>
       </section>
@@ -459,7 +461,7 @@ function App() {
             I have 3 years of experience in visual design and social media content editing, along with 2 years of programming experience building interactive and modern web applications.
             <br /><br />
             I enjoy creating aesthetic, functional, and user-friendly digital experiences using modern technologies like{" "}
-            <span className="text-cyan-500">React</span>, <span className="text-cyan-500">Next.js</span>, <span className="text-cyan-500">Vite</span>, and <span className="text-cyan-500">Tailwind CSS</span>.
+            <span className="text-cyan-500">React</span>, <span className="text-cyan-500">Next.js</span>, <span className="text-cyan-500">Vite</span>, <span className="text-cyan-500">Node.js</span>, <span className="text-cyan-500">PostgreSql</span>, and <span className="text-cyan-500">Tailwind CSS</span>.
             <br /><br />
             I'm also experienced in using various design and editing tools such as{" "}
             <span className="text-cyan-500">Figma</span>, <span className="text-cyan-500">Canva</span>, <span className="text-cyan-500">CorelDRAW</span>,{" "}
