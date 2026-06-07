@@ -31,7 +31,7 @@ function App() {
   const [selectedCertificate, setSelectedCertificate] = useState(null);
   const [isDark, setIsDark] = useState(true);
 
-  // Apply theme to <html>
+  // Apply theme 
   useEffect(() => {
     if (isDark) {
       document.documentElement.classList.add("dark");
