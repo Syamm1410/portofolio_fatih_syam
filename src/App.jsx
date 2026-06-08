@@ -13,6 +13,7 @@ import project3 from "./assets/project romantic.jpg";
 import project4 from "./assets/project sekolah.png";
 import project5 from "./assets/project link.jpg";
 import project6 from "./assets/project clafa.png";
+import design0 from "./assets/design ceremony.jpg";
 import design1 from "./assets/design poster.jpg";
 import design2 from "./assets/design typography.jpg";
 import design3 from "./assets/design sekolah.png";
@@ -31,7 +32,7 @@ function App() {
   const [selectedCertificate, setSelectedCertificate] = useState(null);
   const [isDark, setIsDark] = useState(true);
 
-  // Apply theme 
+  // Apply theme ~
   useEffect(() => {
     if (isDark) {
       document.documentElement.classList.add("dark");
@@ -200,6 +201,15 @@ function App() {
   ];
 
   const designProjects = [
+
+    {
+      title: "Ceremony Poster Design",
+      desc: "Poster design for ceremony event.",
+      detail: "A vibrant and eye-catching poster created for a ceremony event. Designed to capture attention and convey the theme of the event through bold typography and dynamic composition.",
+      image: design0,
+      gradient: "from-cyan-500/30 to-blue-500/30",
+      tech: ["Picsart", "Adobe Lightroom", "Canva", "CorelDraw"],
+    },
     {
       title: "Drama Poster Design 🎨",
       desc: "Silhouette design for a drama production.",
