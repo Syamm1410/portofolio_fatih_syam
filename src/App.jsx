@@ -207,7 +207,7 @@ function App() {
       desc: "Poster design for ceremony event.",
       detail: "A vibrant and eye-catching poster created for a ceremony event. Designed to capture attention and convey the theme of the event through bold typography and dynamic composition.",
       image: design0,
-      imagePosition: "center top",
+      imagePosition: "center 30%",
       gradient: "from-cyan-500/30 to-blue-500/30",
       tech: ["Picsart", "Adobe Lightroom", "Canva", "CorelDraw"],
     },
