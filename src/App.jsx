@@ -207,6 +207,7 @@ function App() {
       desc: "Poster design for ceremony event.",
       detail: "A vibrant and eye-catching poster created for a ceremony event. Designed to capture attention and convey the theme of the event through bold typography and dynamic composition.",
       image: design0,
+      imagePosition: "center top",
       gradient: "from-cyan-500/30 to-blue-500/30",
       tech: ["Picsart", "Adobe Lightroom", "Canva", "CorelDraw"],
     },
@@ -666,7 +667,12 @@ function App() {
                   className={`${card} border backdrop-blur-lg rounded-3xl overflow-hidden shadow-2xl transition-colors duration-300 cursor-pointer`}
                 >
                   {project.image ? (
-                    <img src={project.image} alt={project.title} className="w-full h-36 sm:h-44 md:h-48 object-cover" />
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-36 sm:h-44 md:h-48 object-cover"
+                      style={{ objectPosition: project.imagePosition || "center center" }}
+                    />
                   ) : (
                     <div className={`w-full h-36 sm:h-44 md:h-48 bg-gradient-to-br ${project.gradient} flex items-center justify-center`}>
                       <span className="text-4xl">{project.icon}</span>
